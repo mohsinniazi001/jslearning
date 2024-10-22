@@ -9,6 +9,8 @@ console.log(myname);
 
 let brothername= "kamran khan";
 
+let age = 7;
+
 console.log("my name is"+ " "+ myname+ " " 
-    +"my bro name is "+ brothername);
+    +"my bro name is "+ brothername + " " + "and his age is" +" "+ age );
 
