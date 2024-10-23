@@ -1,5 +1,4 @@
 // Number Data Type Practice Question
-// Write Program to Multiply two decimal Point Numbers.
 // Write Program to perform all arithmetic operations.
 // Write Program to Swap Values of Two Variables
 // Write Program to Swap Values of Three variables like that.
@@ -24,3 +23,47 @@ let sum = 0;
 sum = numberOne + numberTwo;
 
 console.log("The sum of two number is:"+ sum);
+// Write Program to Multiply two decimal Point Numbers.
+console.log("Write Program to Multiply two decimal Point Numbers.");
+
+let MultiplyOne = 4;
+let MultiplyTwo = 5;
+
+let Multiply= MultiplyOne * MultiplyTwo;
+console.log("The Multiply of two number is:"+ Multiply);
+
+// Write Program to perform all arithmetic operations.
+
+console.log("Write Program to perform all arithmetic operations.");
+
+let testOne = 8;
+let testTwo = 7;
+
+let summ, multi, minus, divide ;
+
+
+summ = testOne + testTwo;
+multi = testOne * testTwo;
+divide = testOne / testTwo;
+minus = testOne - testTwo;
+
+console.log("The summ of two number is:"+ summ);
+console.log("The minus of two number is:"+ minus);
+console.log("The multi of two number is:"+ multi);
+console.log("The divide of two number is:"+ divide);
+// Write Program to Swap Values of Two Variables
+
+console.log("Write Program to Swap Values of Two Variables");
+
+let a =20;
+
+let b = 30;
+
+a= a+b; // 50
+
+b = a- b; // 50- 30= 20
+
+a = a- b; 
+
+console.log("the value of a :" + a);
+console.log("the value of b :"+ b);
