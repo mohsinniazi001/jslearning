@@ -1,9 +1,4 @@
 // Number Data Type Practice Question
-// Write Program to perform all arithmetic operations.
-// Write Program to Swap Values of Two Variables
-// Write Program to Swap Values of Three variables like that.
-// Input : ( x = 3 , y = 4 , z = 5)
-// output : (x = 4 , y = 5 , z = 3)
 // Write Program to convert feet to meter and meter into KM.
 // Write Program to convert celcius to farenheit. formula: (°C × 9/5) + 35
 // Write Program to convert farenheit to celcius. formula: (°F − 32) × 5/9
@@ -67,3 +62,20 @@ a = a- b;
 
 console.log("the value of a :" + a);
 console.log("the value of b :"+ b);
+// Write Program to Swap Values of Three variables like that.
+// Input : ( x = 3 , y = 4 , z = 5)
+// output : (x = 4 , y = 5 , z = 3)
+console.log('swapping of three numbers');
+
+let x = 3 , y = 4 , z = 5;
+
+x = x - y + z;  ///  x=4
+
+z = x + y - z; ////z = 3
+
+y = x + y - z ; // y= 5
+
+console.log("the value of x is :"+ x);
+console.log("the value of y is :"+ y);
+console.log("the value of z is :"+ z);
+
