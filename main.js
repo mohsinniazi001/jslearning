@@ -1,22 +1,23 @@
 //console.log("Hi we are creating our first js file");
 //console.log("good job");
 
-console.log("we are going to study string in js");
+// console.log("we are going to study string in js");
 
-let myname = "mohsin khan";
+// let myname = "mohsin khan";
 
-console.log(myname);
+// console.log(myname);
 
-let brothername= "kamran khan";
-let age = 7;
+// let brothername= "kamran khan";
+// let age = 7;
 
-console.log("my name is"+ " "+ myname+ " " 
-    +"my bro name is "+ brothername + " " + "and his age is" +" "+ age );
+// console.log("my name is"+ " "+ myname+ " " 
+//     +"my bro name is "+ brothername + " " + "and his age is" +" "+ age );
 
-console.log(typeof(brothername));
-console.log(brothername.toUpperCase());
+// console.log(typeof(brothername));
+// console.log(brothername.toUpperCase());
 
-console.log(brothername.toLowerCase());
+// console.log(brothername.toLowerCase());
 
-console.log(brothername.length);
-console.log(brothername[4]);
+// console.log(brothername.length);
+// console.log(brothername[4]);
+
