@@ -1,5 +1,4 @@
 // Number Data Type Practice Question
-// Write Program to convert days to years and weeks
 console.log("Hey we are going to do  Number Data Type Practice Question");
 
 // Write Program to Add Two Integers and store their sum in the third variable.
@@ -130,4 +129,18 @@ RectangleArea = widh* length;
 
 console.log(" Area of Rectangle: " + RectangleArea);
 
+console.log("Write Program to convert days to years and weeks");
 
+let days= 820;
+let years=0;
+let weeks = 0;
+let totaldays = 365;
+ 
+
+years = Math.floor(days/ totaldays);
+
+weeks= Math.floor(days % totaldays / 7);
+
+console.log("Total year of " + days+ " is: "+ years + " year");
+
+console.log("Total Weeks of " + days+ " is: "+ weeks);
