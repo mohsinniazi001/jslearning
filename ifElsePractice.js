@@ -76,3 +76,23 @@ if ( lightColor == "Yellow"){
 {
     console.log("Invalid color! Please enter Green, Yellow, or Red.");
 }
+
+console.log("Create a program that calculates ticket prices for a movie based on age");
+
+let age = 41;
+let ticketPrice = 550;
+
+if(age < 12){
+
+    ticketPrice = ticketPrice * 0.5;
+    console.log("Dear you are below 12, Huraa enjoy 50% Discount. After disscount movie ticket price for you is :" + ticketPrice );
+
+}else if(age > 60){
+
+    ticketPrice = ticketPrice * 0.3;
+    console.log("Hurra! Dear you are above 60 enjoy 30% Disscount, . After disscount movie ticket price for you is :" + ticketPrice );
+
+}
+else{
+    console.log("Your Movie Ticket price is :" + ticketPrice);
+}
