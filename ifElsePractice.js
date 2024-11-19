@@ -143,3 +143,23 @@ if ( service == "Poor"){
     console.log("Hey dear for your Good service you tip is " + tip);
 
 }
+
+console.log("Write a program that simulates a simple ATM withdrawal system");
+let totalBalance, withdrawal = 500;
+totalBalance = 8000;
+
+if ( withdrawal <= 0){
+    console.log("plz enter valid amoutn to withdraw");
+}else 
+if ( withdrawal > totalBalance){
+    console.log("You dont have sufficeint balance");
+}
+else if( withdrawal < totalBalance){
+
+    totalBalance = totalBalance - withdrawal;
+
+    console.log(" you withdrawal amount is ", withdrawal, "Thanks for using ATM, Your Current Balance is", totalBalance);
+
+}
+
+
