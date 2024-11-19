@@ -112,3 +112,34 @@ else if (weight > 5){
     console.log("The Shipping charges for you parcel is 10$" );
 
 }
+
+console.log("Create a program to calculate Restaurant Tip Calculator");
+
+let tip;
+let service = "Poor";
+totalBill = 1700;
+if ( service == "Excellent"){
+    tip = totalBill + (totalBill* 0.2);
+    console.log("Hey dear for your Excellent service you tip is " + tip);
+
+}else
+
+if ( service == "Good"){
+    tip = totalBill + (totalBill* 0.15);
+    console.log("Hey dear for your Good service you tip is " + tip);
+
+}
+else
+
+if ( service == "Average"){
+    tip = totalBill + (totalBill* 0.10);
+    console.log("Hey dear for your Good service you tip is " + tip);
+
+}
+else
+
+if ( service == "Poor"){
+    tip = totalBill + (totalBill* 5/100);
+    console.log("Hey dear for your Good service you tip is " + tip);
+
+}
