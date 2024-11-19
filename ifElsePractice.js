@@ -96,3 +96,19 @@ if(age < 12){
 else{
     console.log("Your Movie Ticket price is :" + ticketPrice);
 }
+
+console.log("Create a program to calculate shipping costs based on the weight of a package");
+
+let shippingCost , weight= 3;
+
+if ( weight < 1){
+    console.log("Hey enjoy free Shipping.");
+
+}else if ( weight >= 1 || weight <= 5){
+    console.log("The Shipping charges for you parcel is 5$" );
+
+}
+else if (weight > 5){
+    console.log("The Shipping charges for you parcel is 10$" );
+
+}
