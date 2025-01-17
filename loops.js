@@ -82,3 +82,44 @@ do{
     nodw++;
 
 }while(nodw <= 10)
+
+    // Write a program that prints all even numbers between 1 and 20
+
+let numberf;
+for(numberf =1 ; numberf <= 20; numberf++){
+    if( numberf % 2 == 0){
+        console.log('the number', numberf, ' is even number');
+    }
+}
+numberf = 0;
+while(numberf<=20){
+    if( numberf % 2 == 0){
+        console.log('we used while and the number', numberf, ' is even number');
+    }
+    numberf++;
+}
+numberf = 0;
+do{
+    if( numberf % 2 == 0){
+        console.log('we used do while and the number', numberf, ' is even number');
+    }
+    numberf++;
+
+    
+}while(numberf <=20)
+
+    // Create a for loop that prints the multiplication table for
+    //  any number provided by the user (e.g., multiplication table for 5)
+//  let input= prompt('Eneter You number');
+//  for( let i =1; i<=10 ; i++){
+
+//     let table = input*i;
+//     console.log(input, '*', i, '= ',table);
+//  }
+
+///Write a for loop that counts down from 10 to 1 and prints each number.
+
+for(let i =10; i>0; i-- ){
+
+console.log('Count Down start from 10 to 1', i);
+}
